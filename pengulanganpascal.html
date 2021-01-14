@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+    <head>
+        <title id="awal">Pengulangan Pada Pascal</title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="cssuas.css">
+    </head>
+    
+    <style>
+
+        p{
+            color: black;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 50px;
+            margin-left: 50pt;
+            margin-right: 50pt;
+        }
+        p1{
+            font-size: 20px;
+            text-decoration: underline;
+        }
+    
+        .cl{
+            font-family: monospace;
+            font-size: 22pt;
+            margin-top: 50px;
+        }
+
+        
+    </style>
+    <body style="background-image: url(Lbu.jpg);background-size: cover; background-repeat: no-repeat">
+        <h1>Pengulangan pada Pascal</h1>
+        
+        <p>Pengulangan dalam program didefinisikan sebagai bentuk algoritma yang berfungsi untuk mengulang perintah-perintah baris program dengan aturan tertentu.
+            Pascal menyediakan beberapa macam struktur pengulangan yang berbeda, antara lain :<br><a href="#for">STRUKTUR FOR<br></a><a href="#while">STRUKTUR WHILE DO<br></a><a href="#repeat">STRUKTUR REPEAT UNTIL.</a></p>
+        
+        <h1 id="for">Struktur FOR</h1>
+        
+            <p> Struktur FOR digunakan untuk menghasilkan pengulangan sejumlah kali tanpa penggunaan kondisi apapun. Struktur ini digunakan untuk perulangan yang telah diketahui berapa kali akan dilakukan, misalnya menjumlahkan integer 1 sampai 1000, akan diperlukan sebanyak 1000 perulangan.<br>
+            Berikut adalah beberapa pengulangan FOR.</p>
+        
+        <h2 class="cl">-For menaik (ascending)</h2>
+        <p1>For menaik adalah pengulangan for dengan menderetkan ekspresi terkecil ke ekspresi terbesar.</p1>
+            <p class="p">
+                Bentuk umum :<br>
+                For variable := ekpresi1 to ekspresi2 do<br>
+                Begin<br>
+                Aksi1;<br>
+                End;<br>
+            </p>
+
+        
+        <h2 class="cl">-For menurun (descending)</h2>
+        <p1> For menurun adalah pengulangan for dengan menderetkan ekspresi terbesar ke ekspresi terkecil.</p1>
+            <p class="p">
+                Bentuk umum :<br>
+                For variable := ekpresi1 downto ekspresi2 do<br>
+                Begin<br>
+                Aksi1;<br>
+                End;
+            </p>
+        
+        <h2 class="cl">-For dalam for</h2>
+        <p1> For dalam for adalah pengulangan struktur for yang berada dalam pengulangan for lainnya. Pengulangan yang berada di dalam akan di proses terlebih dahulu, setelah itu baru pengulangan luar</p1>
+        
+        <h1 id="while">Struktur WHILE-DO</h1>
+        <p> Untuk situasi dimana jumlah perulangan belum bisa dipastikan, kita bisa menggunakan perulangan While-Do dan Repeat Until.<br>
+        Kunci dari perulangan While-Do ada di condition dan kode program untuk mengubah condition. Condition bisa dikatakan sebagai syarat agar perulangan bisa dijalankan. Selama syarat ini terpenuhi (bernilai TRUE), perulangan akan terus dijalankan. Jika syarat ini tidak terpenuhi (bernilai FALSE), perulangan tidak akan berjalan.</p>
+            <p class="p">
+                WHILE (condition) DO<br>
+                begin<br>
+                (kode program yang ingin diulang disini...)<br>
+                (kode program untuk mengubah condition..)<br>
+                end;
+            </p>
+        
+        <h1 id="repeat">Struktur Repeat Until</h1>
+        <p>Jika syarat bernilai False maka pengulangan akan dilakuakn hingga syarat bernilai True. Dalam kata lain pengulangan ini adalah kebalikan dari pengulangan While-Do.</p>
+            <p class="p">                
+                Repeat<br>
+                begin<br>
+                (kode program yang ingin diulang disini...)<br>
+                (kode program untuk mengubah condition..)<br>
+                Until (condition)<br>
+                end;
+        
+            </p>
+        
+        <p>Itulah penjelasan <a href="#awal">Pengulangan Pada Pascal</a> secara singkat, untuk penjelasan lainnya silahkan klik <a href="selanjutnya.html">"Selanjutnya"</a></p>
+
+    
+    </body>
+</html>
